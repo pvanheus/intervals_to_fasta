@@ -1,3 +1,9 @@
+# Ignore Iddo et al's code
+intergenic.py
+# Ignore all FASTA files
+*.fasta
+# Ignore the data dir
+data/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
