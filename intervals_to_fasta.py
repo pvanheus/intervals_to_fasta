@@ -84,8 +84,8 @@ def intervals_to_fasta(fasta_input_file, gff_input_file, output_file, min_interg
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Extract intervals from GFF/FASTA description of Genome')
-    parser.add_argument('--pad_start', default=0, type=int, "Numbers of extra bases to add at start of interval")
-    parser.add_argument('--pad_end', default=0, type=int, "Number of extra bases to add at end of interval")
+    parser.add_argument('--pad_start', default=0, type=int, help="Numbers of extra bases to add at start of interval")
+    parser.add_argument('--pad_end', default=0, type=int, help="Number of extra bases to add at end of interval")
     parser.add_argument('fasta_input_file', type=argparse.FileType(), help='FASTA format description of genome')
     parser.add_argument('gff_input_file', type=argparse.FileType(), help='GFF3 format description of genome')
     parser.add_argument('output_file', default=sys.stdout, nargs='?', type=argparse.FileType('w'), 
