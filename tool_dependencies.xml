@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<tool_dependency>
+    <package name="biopython" version="1.65">
+        <install version="1.0">
+            <actions>
+                <action type="setup_virtualenv">biopython==1.6.5
+                </action>
+            </actions>
+        </install>
+    </package>
+</tool_dependency>
