@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<tool id="intervals_to_fasta" name="Extract intergenic intervals as FASTA" version="1.0">
+    <description>Given a FASTA format genome and GFF3 annotation of coding regions and genes, extract the intergenic regions as FASTA format</description>
+    <command interpreter="python">intervals_to_fasta.py $fasta_input $gff_input $fasta_output</command>
+    <inputs>
+        <param type="data" format="fasta" name="fasta_input" label="Genome (FASTA format)" />
+        <param type="data" format="gff" name="gff_input" label="GFF3 gene/coding region annotation" />
+    </inputs>
+    <outputs>
+        <data name="fasta_output" format="fasta" />
+    </outputs>
+    <tests>
+        <test>
+            <param name="fasta_input" value="NC_000962_part.fasta" />
+            <param name="gff_input" value="NC_000962_part.gff" />
+            <output name="fasta_output" file="NC_000962_intergenic.fasta" ftype="fasta" />
+        </test>
+    </tests>
+
+    <help>
+        Extract intergenic regions from a genome given coding region/gene annotation
+    </help>
+</tool>

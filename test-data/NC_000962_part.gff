@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.20
+#!processor NCBI annotwriter
+##sequence-region NC_000962.3 1 4411532
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=83332
+NC_000962.3	RefSeq	region	1	4411532	.	+	.	ID=id0;Dbxref=taxon:83332;gbkey=Src;genome=genomic;mol_type=genomic DNA;strain=H37Rv
+NC_000962.3	RefSeq	gene	1	1524	.	+	.	ID=gene0;Name=dnaA;Dbxref=GeneID:885041;gbkey=Gene;gene=dnaA;locus_tag=Rv0001
+NC_000962.3	RefSeq	CDS	1	1524	.	+	0	ID=cds0;Name=NP_214515.1;Parent=gene0;Dbxref=Genbank:NP_214515.1,GeneID:885041;gbkey=CDS;gene=dnaA;product=chromosomal replication initiator protein DnaA;protein_id=NP_214515.1;transl_table=11
+NC_000962.3	RefSeq	gene	2052	3260	.	+	.	ID=gene1;Name=dnaN;Dbxref=GeneID:887092;gbkey=Gene;gene=dnaN;locus_tag=Rv0002
+NC_000962.3	RefSeq	CDS	2052	3260	.	+	0	ID=cds1;Name=NP_214516.1;Parent=gene1;Dbxref=Genbank:NP_214516.1,GeneID:887092;gbkey=CDS;gene=dnaN;product=DNA polymerase III subunit beta;protein_id=NP_214516.1;transl_table=11
+NC_000962.3	RefSeq	gene	3280	4437	.	+	.	ID=gene2;Name=recF;Dbxref=GeneID:887089;gbkey=Gene;gene=recF;locus_tag=Rv0003
+NC_000962.3	RefSeq	CDS	3280	4437	.	+	0	ID=cds2;Name=NP_214517.1;Parent=gene2;Note=single-stranded DNA-binding protein;Dbxref=Genbank:NP_214517.1,GeneID:887089;gbkey=CDS;gene=recF;product=DNA replication%2Frepair protein RecF;protein_id=NP_214517.1;transl_table=11
+NC_000962.3	RefSeq	gene	4434	4997	.	+	.	ID=gene3;Name=recF;Dbxref=GeneID:887088;gbkey=Gene;gene=recF;locus_tag=Rv0004
+NC_000962.3	RefSeq	CDS	4434	4997	.	+	0	ID=cds3;Name=NP_214518.1;Parent=gene3;Dbxref=Genbank:NP_214518.1,GeneID:887088;gbkey=CDS;product=hypothetical protein;protein_id=NP_214518.1;transl_table=11
+NC_000962.3	RefSeq	gene	5240	7267	.	+	.	ID=gene4;Name=gyrB;Dbxref=GeneID:887081;gbkey=Gene;gene=gyrB;locus_tag=Rv0005
+NC_000962.3	RefSeq	CDS	5240	7267	.	+	0	ID=cds4;Name=NP_214519.2;Parent=gene4;Note=Belongs to the type II topoisomerase family.;Dbxref=Genbank:NP_214519.2,GeneID:887081;gbkey=CDS;gene=gyrB;product=DNA gyrase subunit B;protein_id=NP_214519.2;transl_table=11
+NC_000962.3	RefSeq	gene	7302	9818	.	+	.	ID=gene5;Name=gyrA;Dbxref=GeneID:887105;gbkey=Gene;gene=gyrA;locus_tag=Rv0006
+NC_000962.3	RefSeq	CDS	7302	9818	.	+	0	ID=cds5;Name=NP_214520.1;Parent=gene5;Dbxref=Genbank:NP_214520.1,GeneID:887105;gbkey=CDS;gene=gyrA;product=DNA gyrase subunit A;protein_id=NP_214520.1;transl_table=11
+NC_000962.3	RefSeq	gene	9914	10828	.	+	.	ID=gene6;Name=Rv0007;Dbxref=GeneID:885982;gbkey=Gene;locus_tag=Rv0007
+NC_000962.3	RefSeq	CDS	9914	10828	.	+	0	ID=cds6;Name=NP_214521.1;Parent=gene6;Note=A core mycobacterial gene%3B conserved in mycobacterial strains %28See Marmiesse et al.%2C2004 PMID:14766927%29.;Dbxref=Genbank:NP_214521.1,GeneID:885982;gbkey=CDS;product=membrane protein;protein_id=NP_214521.1;transl_table=11
+NC_000962.3	RefSeq	gene	10887	10960	.	+	.	ID=gene7;Name=ileT;Dbxref=GeneID:2700464;gbkey=Gene;gene=ileT;locus_tag=Rvnt01
+NC_000962.3	RefSeq	tRNA	10887	10960	.	+	.	ID=rna0;Parent=gene7;Note=ileT%2C tRNA-Ile%2C anticodon gat%2C length %3D 74;Dbxref=GeneID:2700464;anticodon=%28pos:10921..10923%29;codons=33;gbkey=tRNA;gene=ileT;product=tRNA-Ile
+NC_000962.3	RefSeq	exon	10887	10960	.	+	.	ID=id1;Parent=rna0;Note=ileT%2C tRNA-Ile%2C anticodon gat%2C length %3D 74;Dbxref=GeneID:2700464;anticodon=%28pos:10921..10923%29;codons=33;gbkey=tRNA;gene=ileT;product=tRNA-Ile
+NC_000962.3	RefSeq	gene	11112	11184	.	+	.	ID=gene8;Name=alaT;Dbxref=GeneID:2700469;gbkey=Gene;gene=alaT;locus_tag=Rvnt02
+NC_000962.3	RefSeq	tRNA	11112	11184	.	+	.	ID=rna1;Parent=gene8;Note=alaT%2C tRNA-Ala%2C anticodon tgc%2C length %3D 73;Dbxref=GeneID:2700469;anticodon=%28pos:11145..11147%29;codons=54;gbkey=tRNA;gene=alaT;product=tRNA-Ala
+NC_000962.3	RefSeq	exon	11112	11184	.	+	.	ID=id2;Parent=rna1;Note=alaT%2C tRNA-Ala%2C anticodon tgc%2C length %3D 73;Dbxref=GeneID:2700469;anticodon=%28pos:11145..11147%29;codons=54;gbkey=tRNA;gene=alaT;product=tRNA-Ala
+NC_000962.3	RefSeq	gene	11874	12311	.	-	.	ID=gene9;Name=Rv0008c;Dbxref=GeneID:887085;gbkey=Gene;locus_tag=Rv0008c
+NC_000962.3	RefSeq	CDS	11874	12311	.	-	0	ID=cds7;Name=NP_214522.1;Parent=gene9;Dbxref=Genbank:NP_214522.1,GeneID:887085;gbkey=CDS;product=cell wall synthesis protein CwsA;protein_id=NP_214522.1;transl_table=11
+NC_000962.3	RefSeq	gene	12468	13016	.	+	.	ID=gene10;Name=ppiA;Dbxref=GeneID:887087;gbkey=Gene;gene=ppiA;gene_synonym=cfp22;locus_tag=Rv0009
+NC_000962.3	RefSeq	CDS	12468	13016	.	+	0	ID=cds8;Name=NP_214523.1;Parent=gene10;Note=alternate gene name: cfp22%3B belongs to the cyclophilin-type PPIase family.;Dbxref=Genbank:NP_214523.1,GeneID:887087;gbkey=CDS;gene=ppiA;product=iron-regulated peptidyl-prolyl cis-trans isomerase PpiA;protein_id=NP_214523.1;transl_table=11
+NC_000962.3	RefSeq	gene	13133	13558	.	-	.	ID=gene11;Name=Rv0010c;Dbxref=GeneID:887082;gbkey=Gene;locus_tag=Rv0010c
+NC_000962.3	RefSeq	CDS	13133	13558	.	-	0	ID=cds9;Name=NP_214524.1;Parent=gene11;Note=A core mycobacterial gene%3B conserved in mycobacterial strains %28See Marmiesse et al.%2C 2004 PMID:14766927%29.;Dbxref=Genbank:NP_214524.1,GeneID:887082;gbkey=CDS;product=membrane protein;protein_id=NP_214524.1;transl_table=11
