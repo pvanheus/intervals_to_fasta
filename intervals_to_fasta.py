@@ -9,7 +9,7 @@ import Bio.SeqIO
 import pvh.gff_utils
 
 def write_gene(output_file, seq, start, end):
-    print(start, end)
+    #print(start, end)
     subseq = seq[start:end]
     # write genomic (1-based) coordinates of ig region start and end
     subseq.id = '{}_{}_{}'.format(id_from_gb(seq), start+1, end)
