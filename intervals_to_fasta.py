@@ -6,6 +6,11 @@ import argparse
 import re
 import operator
 import Bio.SeqIO
+import os
+import os.path
+
+# add the lib dir to the PYTHONPATH
+sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
 import pvh.gff_utils
 
 def write_gene(output_file, seq, start, end):
