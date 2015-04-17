@@ -1,0 +1,11 @@
+name: intervals_to_fasta
+owner: sanbi-uwc
+description: Tool to extract intergenic regions from a (bacterial) genome (given FASTA and GFF input)
+homepage_url: https://github.com/SANBI-SA/intervals_to_fasta
+long_description: |
+    Given a GFF3 description of genes and CDS on a sequence and a FASTA file of the sequence, 
+    output the intergenic intervals as FASTA format file. Similar to @Friedberg-Lab's intergenic.py
+remote_repository_url: https://github.com/SANBI-SA/intervals_to_fasta
+type: unrestricted
+categories:
+- Genomic Interval Operations
